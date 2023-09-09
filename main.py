@@ -11,7 +11,7 @@ person['age'] = 30
 person['country'] = 'algeria'
 print(len(person))
 person['hobbies'].append('coding')
-#print(person)
+print(person)
 def check_hobbies(person):
     if len(person['hobbies']) > 3:
         print('wow you are amazing')
